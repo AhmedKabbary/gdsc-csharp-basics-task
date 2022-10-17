@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{821ABF49-54E1-46AC-BFC3-6C5F3DFA8F87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "src\Calculator\Calculator.csproj", "{C90B1216-1284-4E4E-81F5-173EA70AF085}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrix", "src\Matrix\Matrix.csproj", "{52ABDCCF-0B4E-45EB-9BCC-DE0E24EA3DF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triangle", "src\Triangle\Triangle.csproj", "{4F1C7B05-F0D5-47BD-A062-FA1434E1D538}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C90B1216-1284-4E4E-81F5-173EA70AF085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C90B1216-1284-4E4E-81F5-173EA70AF085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C90B1216-1284-4E4E-81F5-173EA70AF085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C90B1216-1284-4E4E-81F5-173EA70AF085}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52ABDCCF-0B4E-45EB-9BCC-DE0E24EA3DF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52ABDCCF-0B4E-45EB-9BCC-DE0E24EA3DF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52ABDCCF-0B4E-45EB-9BCC-DE0E24EA3DF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52ABDCCF-0B4E-45EB-9BCC-DE0E24EA3DF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F1C7B05-F0D5-47BD-A062-FA1434E1D538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F1C7B05-F0D5-47BD-A062-FA1434E1D538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F1C7B05-F0D5-47BD-A062-FA1434E1D538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F1C7B05-F0D5-47BD-A062-FA1434E1D538}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C90B1216-1284-4E4E-81F5-173EA70AF085} = {821ABF49-54E1-46AC-BFC3-6C5F3DFA8F87}
+		{52ABDCCF-0B4E-45EB-9BCC-DE0E24EA3DF6} = {821ABF49-54E1-46AC-BFC3-6C5F3DFA8F87}
+		{4F1C7B05-F0D5-47BD-A062-FA1434E1D538} = {821ABF49-54E1-46AC-BFC3-6C5F3DFA8F87}
+	EndGlobalSection
+EndGlobal
